@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/postlayout_shape"
+        android:layout_marginHorizontal="10dp"
+        >
+        <ImageView
+            android:id="@+id/newschannel"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginHorizontal="4dp"
+            />
+        <TextView
+            android:id="@+id/newschannelname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/playerimages"
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="10dp"
+            app:shapeAppearanceOverlay="@style/CustomShapeAppearanceOverlay.CornerSize8dp"
+            />
+
+        <TextView
+            android:id="@+id/posttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+        />
+
+        <TextView
+            android:id="@+id/postdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:layout_marginHorizontal="10dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
